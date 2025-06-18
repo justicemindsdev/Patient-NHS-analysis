@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "*.html", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/$1" }
+  ],
+  "env": {
+    "SUPABASE_URL": "https://eflzhvxrymhfvyfbxkrw.supabase.co",
+    "SUPABASE_STORAGE_URL": "https://eflzhvxrymhfvyfbxkrw.supabase.co/storage/v1/object/public"
+  }
+}

@@ -31,14 +31,13 @@ SUPABASE_BUCKET_NAME=audios
 SUPABASE_FOLDER=lynne_hospital
 EOF
 
-# Deploy to Vercel with environment variables and custom domain
+# Deploy to Vercel with environment variables
 echo "Deploying to Vercel..."
 vercel --prod --yes \
   --env SUPABASE_URL=https://eflzhvxrymhfvyfbxkrw.supabase.co \
   --env SUPABASE_STORAGE_URL=https://eflzhvxrymhfvyfbxkrw.supabase.co/storage/v1/object/public \
   --env SUPABASE_BUCKET_NAME=audios \
-  --env SUPABASE_FOLDER=lynne_hospital \
-  --alias patient.justice-minds.com
+  --env SUPABASE_FOLDER=lynne_hospital
 
 echo "Deployment complete!"
 echo "Your project is now available at: https://patient.justice-minds.com"

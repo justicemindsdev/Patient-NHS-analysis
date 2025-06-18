@@ -38,8 +38,7 @@ vercel --prod --yes \
   --env SUPABASE_URL=https://eflzhvxrymhfvyfbxkrw.supabase.co \
   --env SUPABASE_STORAGE_URL=https://eflzhvxrymhfvyfbxkrw.supabase.co/storage/v1/object/public \
   --env SUPABASE_BUCKET_NAME=audios \
-  --env SUPABASE_FOLDER=lynne_hospital \
-  --alias patient.justice-minds.com
+  --env SUPABASE_FOLDER=lynne_hospital
 ```
 
 ## Option 2: Using GitHub Actions
@@ -86,8 +85,7 @@ The key part of the workflow is:
       --env SUPABASE_URL=https://eflzhvxrymhfvyfbxkrw.supabase.co \
       --env SUPABASE_STORAGE_URL=https://eflzhvxrymhfvyfbxkrw.supabase.co/storage/v1/object/public \
       --env SUPABASE_BUCKET_NAME=audios \
-      --env SUPABASE_FOLDER=lynne_hospital \
-      --alias patient.justice-minds.com
+      --env SUPABASE_FOLDER=lynne_hospital
 ```
 
 ## Option 3: Using Vercel's Integration with GitHub

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patient NHS Analysis - Expert Witness Portal</title>
+    <title>Justice Minds Forensic Intelligence - Patient NHS Analysis</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -61,12 +61,20 @@
         }
 
         .logo {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
             font-size: 1.8rem;
             font-weight: 700;
             letter-spacing: -0.5px;
         }
 
-        .logo span {
+        .logo img {
+            height: 40px;
+            width: auto;
+        }
+
+        .logo span span {
             color: var(--accent-color);
         }
 
@@ -129,9 +137,17 @@
         .hero h1 {
             font-size: 3.5rem;
             font-weight: 700;
-            margin-bottom: 1.5rem;
+            margin-bottom: 0.5rem;
             letter-spacing: -1px;
             color: var(--primary-color);
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            letter-spacing: -0.5px;
+            color: var(--secondary-color);
         }
 
         .hero p {
@@ -386,6 +402,16 @@
             color: rgba(255, 255, 255, 0.7);
         }
 
+        .copyright a {
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .copyright a:hover {
+            color: var(--accent-color);
+        }
+
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 2.5rem;
@@ -424,7 +450,10 @@
 <body>
     <header>
         <div class="container">
-            <div class="logo">Patient<span>NHS</span>Analysis</div>
+            <div class="logo">
+    <img src="https://eflzhvxrymhfvyfbxkrw.supabase.co/storage/v1/object/public/audios/lynne_hospital/justicemindslogo.svg" alt="Justice Minds Forensic Intelligence Ltd. Logo" height="40">
+    <span>Patient<span>NHS</span>Analysis</span>
+</div>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -437,8 +466,9 @@
 
     <section class="hero">
         <div class="container">
-            <h1>Expert Witness Healthcare Analysis</h1>
-            <p>Comprehensive analysis of professional expertise demonstrated in healthcare contexts, with a focus on data protection, surgical best practices, legal frameworks, and patient advocacy.</p>
+            <h1>Justice Minds Forensic Intelligence</h1>
+            <h2>Expert Witness Healthcare Analysis</h2>
+            <p>Comprehensive analysis of professional expertise demonstrated in healthcare contexts, with a focus on data protection, surgical best practices, legal frameworks, and patient advocacy. Powered by Justice Minds Forensic Intelligence Ltd.</p>
             <div>
                 <a href="audio-podcast.html" class="btn">Listen to Audio Segments</a>
                 <a href="expert-podcast-script.html" class="btn btn-secondary">View Expert Analysis</a>
@@ -575,9 +605,17 @@
                         <li><a href="https://github.com/justicemindsdev/Patient-NHS-analysis/blob/main/README.md" target="_blank">README</a></li>
                     </ul>
                 </div>
+                <div class="footer-column">
+                    <h3>About Us</h3>
+                    <ul>
+                        <li><a href="https://www.justice-minds.com/" target="_blank">Justice Minds Forensic Intelligence</a></li>
+                        <li><a href="https://www.justice-minds.com/services" target="_blank">Our Services</a></li>
+                        <li><a href="https://www.justice-minds.com/contact" target="_blank">Contact Us</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="copyright">
-                &copy; 2025 Patient NHS Analysis. All rights reserved.
+                &copy; 2025 <a href="https://www.justice-minds.com/" target="_blank">Justice Minds Forensic Intelligence Ltd.</a> All rights reserved.
             </div>
         </div>
     </footer>

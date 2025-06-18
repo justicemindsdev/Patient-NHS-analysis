@@ -9,5 +9,6 @@
   "env": {
     "SUPABASE_URL": "https://eflzhvxrymhfvyfbxkrw.supabase.co",
     "SUPABASE_STORAGE_URL": "https://eflzhvxrymhfvyfbxkrw.supabase.co/storage/v1/object/public"
-  }
+  },
+  "alias": ["patient.justice-minds.com"]
 }

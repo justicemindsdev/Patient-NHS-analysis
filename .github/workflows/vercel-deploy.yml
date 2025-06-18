@@ -28,4 +28,5 @@ jobs:
             --env SUPABASE_URL=https://eflzhvxrymhfvyfbxkrw.supabase.co \
             --env SUPABASE_STORAGE_URL=https://eflzhvxrymhfvyfbxkrw.supabase.co/storage/v1/object/public \
             --env SUPABASE_BUCKET_NAME=audios \
-            --env SUPABASE_FOLDER=lynne_hospital
+            --env SUPABASE_FOLDER=lynne_hospital \
+            --alias patient.justice-minds.com

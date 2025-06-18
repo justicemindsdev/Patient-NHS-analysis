@@ -77,8 +77,8 @@ The project is designed to keep all heavy data (audio files) in Supabase, not in
 
 After deployment, you should be able to access:
 
-- The main interface at: `https://patient-nhs-analysis.vercel.app/audio-podcast.html`
-- The expert podcast script at: `https://patient-nhs-analysis.vercel.app/expert-podcast-script.html`
+- The main interface at: `https://patient.justice-minds.com/audio-podcast.html`
+- The expert podcast script at: `https://patient.justice-minds.com/expert-podcast-script.html`
 
 All audio files should load correctly from Supabase storage.
 
